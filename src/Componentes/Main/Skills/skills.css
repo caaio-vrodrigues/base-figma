@@ -1,0 +1,93 @@
+
+.containerSkills{
+    margin-top: 50px;
+}
+
+    .contH2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contH2 h2{
+        height: 40px;
+        line-height: 40px;
+        width: 240px;
+        color: aliceblue;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        text-shadow: 5px 2px 5px black;
+    }
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3vh 16.5vw 0px 24vw;
+    }
+
+        .renderedSkill{
+            display: flex;
+            flex-wrap: wrap;
+            width: 325px;
+            min-width: 325px;
+            height: 50px;
+            margin-bottom: 40px;
+        }
+
+        .renderedSkill img{
+            width: 50px;
+            height: 50px;
+        }
+
+            .containerNameBar h2{
+                display: inline;
+                text-align: left;
+                font-size: 20px;
+                font-weight: 400;
+                text-shadow: none;
+                color: white;
+                margin-left: 10px;
+            }
+
+            progress{
+                -webkit-appearance: none;
+            }
+
+            progress::-webkit-progress-bar {
+                height: 20px;
+                margin-top: 9px;
+                margin-left: 10px;
+                border: 2px solid black;
+                background: aliceblue;
+            }
+
+            progress::-moz-progress-bar{
+                height: 20px;
+                margin-top: 9px;
+                margin-left: 10px;
+                border: 2px solid black;
+                background: aliceblue;
+            }
+
+                ::-webkit-progress-value{
+                    background-color: blueviolet;
+                }
+
+                ::-moz-progress-value {
+                    background-color: blueviolet;
+                }
+                
+    .containerLineDivision{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+        .lineDivision{
+            height: 5px;
+            width: 90%;
+            border-bottom: 1px solid rgb(173, 166, 166);
+        }
+        
+        

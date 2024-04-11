@@ -1,0 +1,47 @@
+
+
+.allProjects h2{
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 5px 2px 5px black;
+}
+
+    .containerProjects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 80px;
+        padding-bottom: 100px;
+    }
+
+        .project{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+        }
+
+        .project a{
+            color: aliceblue;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-size: 18px;
+            width: 100px;
+            padding: 5px;
+            border-radius: 3px;
+            background-color: rgba(46, 45, 45, 0.473);
+            text-shadow: 3px 3px 1px black;
+            box-shadow: black 5px 5px 5px 1px;
+        }
+
+        .project a:hover{
+            background-color: black;
+        }
+
+        .containerImg{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
